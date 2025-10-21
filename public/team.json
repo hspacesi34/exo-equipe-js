@@ -10,6 +10,19 @@
                 "JAVA"
             ],
             "years_xp":5
+        },
+        {
+            "img":"assets/img-profile/profile-laura.png",
+            "name":"Laura Gaupin",
+            "poste":"Developpeuse Back-End",
+            "tech":[
+                "PHP",
+                "Symfony",
+                "Twig",
+                "JS"
+            ],
+            "years_xp":4
         }
+
     ]
 }
