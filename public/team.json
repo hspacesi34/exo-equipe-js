@@ -33,6 +33,18 @@
                 "JS"
             ],
             "years_xp":4
+	},
+	{
+            "img":"assets/img-profile/habib-photo.jpg",
+            "name":"CAMARA Habib",
+            "poste":"Testeur",
+            "tech":[
+                "HTML",
+                "NODEJS",
+                "PYTHON"
+            ],
+           "years_xp":3
         }
-    ]
+
+   ]
 }
