@@ -1,0 +1,15 @@
+{
+    "people":[
+        {
+            "img":"assets/img-profile/profile-cedric.jpg",
+            "name":"Cédric Jarry",
+            "poste":"Dev",
+            "tech":[
+                "JS",
+                "PHP",
+                "JAVA"
+            ],
+            "years_xp":5
+        }
+    ]
+}
