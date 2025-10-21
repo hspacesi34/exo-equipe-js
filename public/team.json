@@ -11,16 +11,5 @@
             ],
             "years_xp":5
         }
-        {
-            "img":"assets/img-profile/profile-jimmy.webp",
-            "name":"Jimmy Marchandet",
-            "poste":"Dev",
-            "tech":[
-                "JS",
-                "PHP",
-                "SQL"
-            ],
-            "years_xp":45
-        }
     ]
 }
