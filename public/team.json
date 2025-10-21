@@ -21,6 +21,18 @@
                 "SQL"
             ],
             "years_xp":45
+        },
+        {
+            "img":"assets/img-profile/profile-laura.png",
+            "name":"Laura Gaupin",
+            "poste":"Developpeuse Back-End",
+            "tech":[
+                "PHP",
+                "Symfony",
+                "Twig",
+                "JS"
+            ],
+            "years_xp":4
         }
     ]
 }
