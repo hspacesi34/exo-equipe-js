@@ -1,11 +1,43 @@
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exo cheveux</title>
 </head>
+
 <body>
     <div id="navbar"></div>
+    <div class ="flex justify-evenly mt-10">
+        <div class="flex justify-center items-center">
+            <img id="left" src="../../public/assets/hair/arrow_left.png" alt="">
+            <div id="face">
+                <div class="absolute top-25 z-10">
+                    <img id="hair" src="../../public/assets/hair/hair-black-1.png" alt="">
+                </div>
+                <div class="relative">
+                    <img src="../../public/assets/hair/face-1.png" alt="">
+                </div>
+            </div>
+            <img id="right" src="../../public/assets/hair/arrow_right.png" alt="">
+        </div>
+        <div>
+            <h1>Couleur des cheveux</h1>
+            <div id="couleur" class="flex gap-3">
+                <svg id="black" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" fill="#2C2C2C" />
+                </svg>
+                <svg id="blond" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" fill="#F8AF2D" />
+                </svg>
+                <svg id="turquoise" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" fill="#00A9A5" />
+                </svg>
+            </div>
+        </div>
+    </div>
     <script type="module" src="../modules/components/navbar.js"></script>
+    <script type="module" src="./hair.js"></script>
 </body>
+
 </html>
