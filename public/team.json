@@ -44,7 +44,17 @@
                 "PYTHON"
             ],
            "years_xp":3
+        },
+        {
+            "img":"assets/img-profile/profile-mohammed.png",
+            "name":"Mohammed EL MOUHIB",
+            "poste":"Developpeur",
+            "tech":[
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "years_xp":0
         }
-
-   ]
+    ]
 }
