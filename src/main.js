@@ -1,11 +1,12 @@
 import './style.css'
+import json from './team.json';
+
+const jsonPromesse = new Promise((resolve, reject) => {
+  resolve(json);
+  reject(new Error("erreur fatale de fou"));
+});
 
 const listPeople = document.getElementById("list-people");
-
-async function getJsonFile() {
-  const jsonFile = await fetch('http://localhost:5173/team.json');
-  return await jsonFile.json();
-}
 
 function displayInnerHTML(person, index) {
   return `
@@ -28,7 +29,7 @@ function displayInnerHTML(person, index) {
 }
 
 function displayList() {
-  getJsonFile().then(rep => {
+  jsonPromesse.then(rep => {
     rep.people.forEach((person, index) => {
       listPeople.innerHTML += displayInnerHTML(person, index);
       const listTech = document.getElementById(`list-tech-${index}`);
@@ -44,12 +45,12 @@ function displayList() {
 displayList();
 const inputSearch = document.getElementById("input-search");
 
-inputSearch.addEventListener("keyup", (event) => {
+inputSearch.addEventListener("input", (event) => {
   listPeople.innerHTML = "";
   if (event.target.value != "") {
     let keyword = event.target.value;
     let regex = new RegExp(`\\b${keyword}\\b`, "i");
-    getJsonFile().then(rep => {
+    jsonPromesse.then(rep => {
     rep.people.forEach((person, index) => {
       console.log(regex.test(person.name));
       
